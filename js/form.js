@@ -3,6 +3,7 @@ function printError(Id, Msg) {
 }
 
 function sendtowhatsapp() {
+    let number = "+911234567890
 
     var name = document.Form.name.value;
     var email = document.Form.email.value;
