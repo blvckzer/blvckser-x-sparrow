@@ -2,7 +2,7 @@ function printError(Id, Msg) {
     document.getElementById(Id).innerHTML = Msg;
 }
 
-function validateForm() {
+function sendtowhatsapp() {
 
     var name = document.Form.name.value;
     var email = document.Form.email.value;
