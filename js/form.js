@@ -1,7 +1,3 @@
-function printError(Id, Msg) {
-    document.getElementById(Id).innerHTML = Msg;
-}
-
 function sendtowhatsapp(){
     let number = "+911234567890
 
@@ -10,6 +6,8 @@ function sendtowhatsapp(){
     var mobile = document.Form.mobile.value;
     var country = document.Form.country.value;
     var gender = document.Form.gender.value;
+    var url = "https://wa.me/?text=+917306454074 +"?text="
+     +
     
 
     var nameErr = emailErr = mobileErr = countryErr = genderErr = true;
